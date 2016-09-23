@@ -13,6 +13,8 @@
     <description>GWT wrapper for the Bootstrap front-end framework</description>
     <url>http://gwtbootstrap3.org</url>
 
+    <version>1.0.patch.1</version>
+
     <dependencies>
         <dependency>
             <groupId>com.google.gwt</groupId>
