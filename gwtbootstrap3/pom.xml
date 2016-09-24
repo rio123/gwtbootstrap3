@@ -5,15 +5,13 @@
     <parent>
         <groupId>org.gwtbootstrap3</groupId>
         <artifactId>gwtbootstrap3-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.patch.1</version>
     </parent>
 
     <artifactId>gwtbootstrap3</artifactId>
     <name>GwtBootstrap3</name>
     <description>GWT wrapper for the Bootstrap front-end framework</description>
     <url>http://gwtbootstrap3.org</url>
-
-    <version>1.0.patch.1</version>
 
     <dependencies>
         <dependency>

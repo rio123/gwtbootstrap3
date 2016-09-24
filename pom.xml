@@ -8,7 +8,7 @@
     <groupId>org.gwtbootstrap3</groupId>
     <artifactId>gwtbootstrap3-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.patch.1</version>
     <name>GwtBootstrap3 Parent</name>
     <description>GWT wrapper for the Bootstrap front-end framework</description>
     <url>http://gwtbootstrap3.org</url>
@@ -78,7 +78,6 @@
 
         <license-maven-plugin.version>1.8</license-maven-plugin.version>
         <gwt-maven-plugin.version>${gwt.version}</gwt-maven-plugin.version>
-        <maven-checkstyle-plugin.version>2.17</maven-checkstyle-plugin.version>
         <maven-compiler-plugin.version>3.3</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <maven-javadoc-plugin.version>2.10.3</maven-javadoc-plugin.version>
@@ -121,22 +120,6 @@
                         <phase>process-sources</phase>
                         <goals>
                             <goal>update-file-header</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>${maven-checkstyle-plugin.version}</version>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <configLocation>checkstyle.xml</configLocation>
-                            <violationSeverity>warning</violationSeverity>
-                        </configuration>
-                        <goals>
-                            <goal>check</goal>
                         </goals>
                     </execution>
                 </executions>
